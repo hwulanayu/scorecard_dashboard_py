@@ -62,12 +62,12 @@ bill_amt4 = st.sidebar.slider('Billing Statement on July', 0, 100000, step=1)
 bill_amt5 = st.sidebar.slider('Billing Statement on August', 0, 100000, step=1)
 bill_amt6 = st.sidebar.slider('Billing Statement on September', 0, 100000, step=1)
 
-pay_amt1 = st.sidebar.slider('Payment Amount on April', 0, 8, step=1)
-pay_amt2 = st.sidebar.slider('Payment Amount on May', 0, 8, step=1)
-pay_amt3 = st.sidebar.slider('Payment Amount on June', 0, 8, step=1)
-pay_amt4 = st.sidebar.slider('Payment Amount on July', 0, 8, step=1)
-pay_amt5 = st.sidebar.slider('Payment Amount on August', 0, 8, step=1)
-pay_amt6 = st.sidebar.slider('Payment Amount on September', 0, 8, step=1)
+pay_amt1 = st.sidebar.slider('Payment Amount on April', 0, 1000000, step=1)
+pay_amt2 = st.sidebar.slider('Payment Amount on May', 0, 1000000, step=1)
+pay_amt3 = st.sidebar.slider('Payment Amount on June', 0, 1000000, step=1)
+pay_amt4 = st.sidebar.slider('Payment Amount on July', 0, 1000000, step=1)
+pay_amt5 = st.sidebar.slider('Payment Amount on August', 0, 1000000, step=1)
+pay_amt6 = st.sidebar.slider('Payment Amount on September', 0, 1000000, step=1)
 
 # Tombol untuk menyimpan input ke DataFrame
 if st.sidebar.button('Submit Data'):
